@@ -8,7 +8,7 @@ import { useTheme } from "@crayonai/react-ui/ThemeProvider";
 import { theme, darkTheme, themeMode } from "@/theme";
 
 const ChatInternal = () => {
-  const { portalThemeClassName } = useTheme();
+  useTheme();
 
   return (
     <>
